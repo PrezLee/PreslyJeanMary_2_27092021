@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservia : Trouvez votre hébergement pour des vacances de rêves</title>
+
+    <!-- Stylesheets -->
+
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4e3a7a915b.js" crossorigin="anonymous"></script>
+
+    <!--Google Fonts--> 
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- SECTION 1 NAVBAR --> 
+    <header>
+        <nav class="navbar">
+            <a href="index.html" id="logo"><img src="img/logo/Reservia@3x.png" alt="Logo" class="logo"></a> 
+            <ul class="button">
+                <li class="links">Hebergements</li>
+                <li class="links">Activités</li>
+                <li class="links">S'inscrire</li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main>
+        <!-- SECTION 2 RESEARCH -->
+        <section class="research">
+            <h1 class="title_h1">Trouvez votre hébergement pour des vacances de rêves</h1>
+            <p class="subtitle">En plein centre ville ou en pleine nature</p>
+            <div class="map_icon">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="research_button">
+                <input type="search" id="location" name="location" value="Marseille, France">
+                <input type="button" class="goGet" value="Rechercher">
+            </div>
+
+            <!--FILTER CHOICES-->
+            <div class="filters_container">
+                <h3>Filtres</h3>
+                <ul class="filter_li">
+                    <li class="filter_choice"><i class="fas fa-money-bill-wave"></i>Economique</li>
+                    <li class="filter_choice"><i class="fas fa-child"></i>Familial</li>
+                    <li class="filter_choice"><i class="fas fa-heart"></i>Romantique</li>
+                    <li class="filter_choice"><i class="fas fa-dog"></i>Animaux autorisés</li>
+                </ul>
+            </div>
+            <!--STATISTCS-->
+            <div class="info_stat">
+                <i class="fas fa-info-circle"></i>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+        </section>
+
+        <!-- SECTION 3 ACCOMODATIONS -->    
+        <section class="research_results">
+            <div class="accomodations">
+                <h1 class="titre_h1">Hébergement à Marseille</h1>
+                <div class="results">
+                    <!--RESULT CELL N°1-->
+                    <div class="result">
+                        <a href="#"><img class="thumbnail_photo" src="hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la Cannebière">
+                            <h2 class="thumbnail_title">Auberge la Cannebière</h2>
+                            <p class="thumbnail_subtitle">Nuit à partir de <span class="room_price">25€</span></p>
+                            <div class="rating_stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star minus"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <!--RESULT CELL N°2-->
+                    <div class="result">
+                        <a href="#"><img class="thumbnail_photo" src="hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port">
+                            <h2 class="thumbnail_title">Hôtel du port</h2>
+                            <p class="thumbnail_subtitle">Nuit à partir de <span class="room_price">52€</span></p>
+                            <div class="rating_stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <!--RESULT CELL N°3-->
+                    <div class="result">
+                        <a href="#"><img class="thumbnail_photo" src="hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes">
+                            <h2 class="thumbnail_title">Hôtel Les mouettes</h2>
+                            <p class="thumbnail_subtitle">Nuit à partir de <span class="room_price">75€</span></p>
+                            <div class="rating_stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star minus"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <!--RESULT CELL N°4-->
+                    <div class="result">
+                        <a href="#"><img class="thumbnail_photo" src="hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
+                            <h2 class="thumbnail_title">Hôtel de la mer</h2>
+                            <p class="thumbnail_subtitle">Nuit à partir de <span class="room_price">46€</span></p>
+                            <div class="rating_stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star minus"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <!--RESULT CELL N°5-->
+                    <div class="result">
+                        <a href="#"><img class="thumbnail_photo" src="hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge le panier">
+                            <h2 class="thumbnail_title">Auberge le panier</h2>
+                            <p class="thumbnail_subtitle">Nuit à partir de <span class="room_price">23€</span></p>
+                            <div class="rating_stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star minus"></i>
+                                <i class="fas fa-star minus"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <!--RESULT CELL N°6-->
+                    <div class="result">
+                        <a href="#"><img class="thumbnail_photo" src="hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina">
+                            <h2 class="thumbnail_title">Hôtel chez Amina</h2>
+                            <p class="thumbnail_subtitle">Nuit à partir de <span class="room_price">96€</span></p>
+                            <div class="rating_stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star minus"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="see_more">
+                        <a href="#">Afficher plus</a>
+                    </div>
+                </div>
+            </div>
+            <!--MOST POPULAR ASIDE SECTION-->
+            <aside class="popularity">
+                <div class="popular_results">
+                    <div class="pop_title">
+                        <h1 class="titre_h1">Les plus populaires</h1>
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="pop_results">
+                        <!--POPULAR CELL N°1-->
+                        <div class="pop_result">
+                            <a href="#"><img class="thumbnail_photo" src="hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la Cannebière">
+                                <h2 class="thumbnail_title">Auberge la Cannebière</h2>
+                                <p class="thumbnail_subtitle">Nuit à partir de <span class="room_price">25€</span></p>
+                                <div class="rating_stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star minus"></i>
+                                </div>
+                            </a>
+                        </div>
+                </div>
+            </aside>
+        </section>
+    </main>
+</body>
+</html>
