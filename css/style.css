@@ -16,7 +16,6 @@ body{
     padding: 0;
     font-family: Raleway;
     justify-content: center;
-    max-width: 1340px;
 }
 section{
     margin-left: 50px;
@@ -1391,7 +1390,7 @@ a{
     /**************************************************/
     /* ================= STAT PARA ===================*/
     .stat_para{
-        margin-bottom: 16px;
+        margin-bottom: 60px;
     }
     /* =========================================== */
     /* ============== RESEARCH RESULTS ===============*/
